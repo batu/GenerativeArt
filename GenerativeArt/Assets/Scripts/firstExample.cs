@@ -5,16 +5,13 @@ using UnityEngine.SceneManagement;
 public class firstExample : MonoBehaviour {
 
     int counter = 0;
-    GameObject sphere;
+    public GameObject sphere;
     // Use this for initialization
     void Start() {
 
-        sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
     }
 	
     void runAgain() {
-
-
 
         float xstart = Random.Range(0, 10);
         float ynoise = Random.Range(0, 10);
